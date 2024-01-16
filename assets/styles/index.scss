@@ -1,0 +1,16 @@
+@import "./reset.scss";
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-family: var(--base-font-family);
+  scroll-behavior: smooth;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+body {
+  font-size: 2.11vw;
+  background: var(--light);
+}

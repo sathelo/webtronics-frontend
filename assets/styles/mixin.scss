@@ -1,0 +1,21 @@
+@mixin flex-properties(
+  $flex: inherit,
+  $align-items: inherit,
+  $justify-content: inherit
+) {
+  display: $flex;
+  align-items: $align-items;
+  justify-content: $justify-content;
+}
+
+@mixin cover {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@mixin contain {
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
