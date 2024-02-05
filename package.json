@@ -4,11 +4,11 @@
   "type": "module",
   "scripts": {
     "build": "nuxt build",
-    "dev": "nuxt dev --host",
+    "dev": "nuxt dev --host=localhost --port=8000",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
-    "api": "json-server --watch db.json --port 8001",
+    "api": "json-server --watch __mocks__/index.json --host=localhost --port=3000",
     "ts-check": "vue-tsc -p tsconfig.json --noEmit --skipLibCheck"
   },
   "devDependencies": {
