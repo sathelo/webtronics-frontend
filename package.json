@@ -20,6 +20,7 @@
     "vue-router": "^4.2.5"
   },
   "dependencies": {
+    "axios": "^1.6.7",
     "json-server": "^1.0.0-alpha.19",
     "nuxt-icons": "^3.2.1",
     "sass": "^1.69.7"
